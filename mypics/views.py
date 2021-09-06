@@ -1,8 +1,8 @@
-# from django.shortcuts import render,get_object_or_404,redirect
-# from django.http import HttpResponse,Http404
-# import datetime as dt
-# from .models import Photo,Location,Category
-# from django.core.exceptions import ObjectDoesNotExist
+from django.shortcuts import render,get_object_or_404,redirect
+from django.http import HttpResponse,Http404
+import datetime as dt
+from .models import Photo,Location,Category
+from django.core.exceptions import ObjectDoesNotExist
 
 
 # # Create your views here.
