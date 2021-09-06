@@ -1,4 +1,4 @@
-/* body {
+body {
     font-size: 20px;
   }
   .photo {
@@ -21,7 +21,7 @@
   }
   .category {
     color: black;
-  } */
+  }
   .open-project:hover {
     opacity: 0.5;
   }
