@@ -32,34 +32,34 @@ class Location(models.Model):
     self.title = update
     self.save()
 
-#   @classmethod
-#   def get_location_id(cls, id):
-#     location_id = Location.objects.get(pk = id)
-#     return location_id
+  @classmethod
+  def get_location_id(cls, id):
+    location_id = Location.objects.get(pk = id)
+    return location_id
 
-#   def __str__(self):
-#     return self.title
+  def __str__(self):
+    return self.title
 
-# class Category(models.Model):
-#   title = models.CharField(max_length =50)
+class Category(models.Model):
+  title = models.CharField(max_length =50)
 
-#   def save_category(self):
-#     self.save()
+  def save_category(self):
+    self.save()
 
-#   def delete_category(self):
-#     self.delete()
+  def delete_category(self):
+    self.delete()
 
-#   def update_category(self, update):
-#     self.title = update
-#     self.save()
+  def update_category(self, update):
+    self.title = update
+    self.save()
 
-#   @classmethod
-#   def get_category_id(cls, id):
-#     category_id = Category.objects.get(pk = id)
-#     return category_id
+  @classmethod
+  def get_category_id(cls, id):
+    category_id = Category.objects.get(pk = id)
+    return category_id
 
-#   def __str__(self):
-#     return self.title
+  def __str__(self):
+    return self.title
 
 # class Photo(models.Model):
 #   title = models.CharField(max_length=60)
