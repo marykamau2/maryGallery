@@ -1,0 +1,16 @@
+<!-- {%extends 'base.html'%}
+{% block content %}
+{{ block.super}}
+
+<div class="container-fluid">
+  <div class="row photo">
+    <div class="col-md-1"></div>
+    <!-- displaying photos photos -->
+    <div class="col-md-10">
+      <!-- Looping through photos   -->
+      {% for photos_item in photos %}
+      <div class="col-md-3 col-sm-6">
+        <!--Display photos photo images  -->
+        <a data-toggle="modal" data-target="#{{photos_item.id}}"><img src="{{photos_item.image.url}}"
+            class="img-thumbnail" alt="Image"></a>
+      </div> -->
