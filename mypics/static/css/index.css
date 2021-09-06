@@ -54,7 +54,7 @@
   }
   .menu {
     color: white !important;
-  }
+  } */
   .banner {
     height: 60vh;
     background-image: url('https://res.cloudinary.com/demo/image/upload/sample.jpg');
@@ -91,7 +91,7 @@
     background-color: black;
     border:solid 8px #295168;
     color: white;
-  } */
+  }
   @media (max-width: 1000px) {
     nav {
       height: auto !important;
