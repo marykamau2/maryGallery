@@ -5,14 +5,14 @@ from .models import Photo,Location,Category
 from django.core.exceptions import ObjectDoesNotExist
 
 
-# # Create your views here.
-# def home(request):
-#       return render(request, 'index.html')
+# Create your views here.
+def home(request):
+      return render(request, 'index.html')
 
-# def photos(request):
-#   photos =Photo.objects.all().order_by("-posted_at")
-#   location = Location.objects.all()
-#   return render(request,'photos.html',{'photos':photos, 'location':location})
+def photos(request):
+  photos =Photo.objects.all().order_by("-posted_at")
+  location = Location.objects.all()
+  return render(request,'photos.html',{'photos':photos, 'location':location})
 
 # def detail(request,photo_id):
 #   locations = Location.objects.all()
