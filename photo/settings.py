@@ -88,14 +88,14 @@
 
 # # Database
 # # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql',
-#         'NAME': 'photos',
-#         'USER': 'marynjeri',
-#     'PASSWORD':'njeri2018',
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'photos',
+        'USER': 'marynjeri',
+    'PASSWORD':'njeri2018',
+    }
+}
 
 # # Password validation
 # # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
