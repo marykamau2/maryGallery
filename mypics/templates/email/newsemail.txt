@@ -1,6 +1,6 @@
-{% comment %} Hello {{name}}
+Hello {{name}}
 
 Welcome to my Gallery. Here you will get to see my photo posts
 
 Regards,
-Mary Kamau {% endcomment %}
+Mary Kamau
