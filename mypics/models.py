@@ -19,18 +19,18 @@ class Owner(models.Model):
   def save_owner(self):
     self.save()
 
-# class Location(models.Model):
-#   title = models.CharField(max_length =50)
+class Location(models.Model):
+  title = models.CharField(max_length =50)
 
-#   def save_location(self):
-#     self.save()
+  def save_location(self):
+    self.save()
 
-#   def delete_location(self):
-#       self.delete()
+  def delete_location(self):
+      self.delete()
 
-#   def update_location(self, update):
-#     self.title = update
-#     self.save()
+  def update_location(self, update):
+    self.title = update
+    self.save()
 
 #   @classmethod
 #   def get_location_id(cls, id):
