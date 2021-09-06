@@ -3,7 +3,11 @@ body {
   }
   .photo {
     margin-bottom: 2rem;
-  }
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    justify-content: center;
+}
+  
   nav {
     height: 8vh !important;
     font-size: 25;
