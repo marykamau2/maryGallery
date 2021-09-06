@@ -29,22 +29,22 @@ This is an application that will allow users to read news basically from bitcoin
 - Install dependancies that will create an environment for the app to run pip install -r requirements.txt
 
 ## Make and run migrations
-python3.8 manage.py check
-python manage.py makemigrations news
-python3.8 manage.py sqlmigrate news 0001
-python3.8 manage.py migrate
-Run the app
-python3.8 manage.py runserver
-Open localhost:8000
+- python3.8 manage.py check
+- python manage.py makemigrations news
+- python3.8 manage.py sqlmigrate news 0001
+- python3.8 manage.py migrate
+- Run the app
+- python3.8 manage.py runserver
+- Open localhost:8000
 
 ### Testing the Application
-python3.8 manager.py tests
+- python3.8 manager.py tests
 
 ### Built With
-Python3.6
-Django
-Boostrap
-HTML
-CSS
+- Python3.6
+- Django
+- Boostrap
+- HTML
+- CSS
 ### Licence
-This project is under the MIT licence
+- This project is under the MIT licence
